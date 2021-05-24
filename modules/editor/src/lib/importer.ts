@@ -8,7 +8,7 @@ import { WKTLoader } from '@loaders.gl/wkt';
 // If we want to support node -- we need to import xmldom.
 // For now, we're only supporting browser so we can leave it out.
 // import { DOMParser } from 'xmldom';
-import { AnyGeoJson, Feature } from '@nebula.gl/edit-modes';
+import { AnyGeoJson, Feature } from '@varlab-ucf/nebulagl-edit-modes';
 
 export type ValidImportData = {
   valid: true;

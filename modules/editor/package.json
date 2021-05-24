@@ -1,12 +1,12 @@
 {
-  "name": "@nebula.gl/editor",
+  "name": "@varlab-ucf/nebulagl-editor",
   "description": "A suite of 3D-enabled data editing layers, suitable for deck.gl",
   "license": "MIT",
   "version": "0.22.3",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber/nebula.gl"
+    "url": "https://github.com/cneumann/nebula.gl"
   },
   "keywords": [
     "webgl",
@@ -52,11 +52,11 @@
     "@loaders.gl/core": "^2.1.2",
     "@loaders.gl/wkt": "^2.1.2",
     "@maphubs/tokml": "^0.5.2",
-    "@nebula.gl/edit-modes": "0.22.3",
     "@tmcw/togeojson": "^3.2.0",
     "@types/downloadjs": "1.4.1",
     "@types/styled-react-modal": "1.2.0",
     "@types/wellknown": "0.5.1",
+    "@varlab-ucf/nebulagl-edit-modes": "0.22.3",
     "boxicons": "^2.0.5",
     "clipboard-copy": "^3.1.0",
     "downloadjs": "^1.4.7",

@@ -1,4 +1,4 @@
-import { ImmutableFeatureCollection } from '@nebula.gl/edit-modes';
+import { ImmutableFeatureCollection } from '@varlab-ucf/nebulagl-edit-modes';
 import type {
   Feature,
   FeatureCollection,
@@ -6,7 +6,7 @@ import type {
   StopDraggingEvent,
   PointerMoveEvent,
   Position,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 import { ModeProps } from '../types';
 
 import { SHAPE, EDIT_TYPE, ELEMENT_TYPE, GEOJSON_TYPE, GUIDE_TYPE } from '../constants';

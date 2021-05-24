@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Feature } from '@nebula.gl/edit-modes';
+import { Feature } from '@varlab-ucf/nebulagl-edit-modes';
 import { GeoJsonType, RenderState, Id } from './types';
 
 import { RENDER_STATE, SHAPE, GEOJSON_TYPE, GUIDE_TYPE, ELEMENT_TYPE } from './constants';

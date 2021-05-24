@@ -9,7 +9,7 @@ import {
   FeatureOf,
   FeatureWithProps,
   Viewport,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 import WebMercatorViewport from 'viewport-mercator-project';
 
 // TODO edit-modes: delete and use edit-modes/utils instead

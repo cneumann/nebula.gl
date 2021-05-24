@@ -17,48 +17,48 @@ export { toDeckColor } from './lib/utils';
 // Types
 export type { Color, Style } from './types';
 
-// Moved to @nebula.gl/layers
-export { EditableGeoJsonLayer } from '@nebula.gl/layers';
-export { SelectionLayer } from '@nebula.gl/layers';
-export { ElevatedEditHandleLayer } from '@nebula.gl/layers';
-export { PathOutlineLayer } from '@nebula.gl/layers';
-export { PathMarkerLayer } from '@nebula.gl/layers';
+// Moved to @varlab-ucf/nebulagl-layers
+export { EditableGeoJsonLayer } from '@varlab-ucf/nebulagl-layers';
+export { SelectionLayer } from '@varlab-ucf/nebulagl-layers';
+export { ElevatedEditHandleLayer } from '@varlab-ucf/nebulagl-layers';
+export { PathOutlineLayer } from '@varlab-ucf/nebulagl-layers';
+export { PathMarkerLayer } from '@varlab-ucf/nebulagl-layers';
 
-export type { EditMode } from '@nebula.gl/edit-modes';
-export { GeoJsonEditMode } from '@nebula.gl/edit-modes';
+export type { EditMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { GeoJsonEditMode } from '@varlab-ucf/nebulagl-edit-modes';
 
 // Alter modes
-export { ModifyMode } from '@nebula.gl/edit-modes';
-export { ResizeCircleMode } from '@nebula.gl/edit-modes';
-export { TranslateMode } from '@nebula.gl/edit-modes';
-export { ScaleMode } from '@nebula.gl/edit-modes';
-export { RotateMode } from '@nebula.gl/edit-modes';
-export { DuplicateMode } from '@nebula.gl/edit-modes';
-export { ExtendLineStringMode } from '@nebula.gl/edit-modes';
-export { SplitPolygonMode } from '@nebula.gl/edit-modes';
-export { ExtrudeMode } from '@nebula.gl/edit-modes';
-export { ElevationMode } from '@nebula.gl/edit-modes';
-export { TransformMode } from '@nebula.gl/edit-modes';
+export { ModifyMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ResizeCircleMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { TranslateMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ScaleMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { RotateMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DuplicateMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ExtendLineStringMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { SplitPolygonMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ExtrudeMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ElevationMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { TransformMode } from '@varlab-ucf/nebulagl-edit-modes';
 
 // Draw modes
-export { DrawPointMode } from '@nebula.gl/edit-modes';
-export { DrawLineStringMode } from '@nebula.gl/edit-modes';
-export { DrawPolygonMode } from '@nebula.gl/edit-modes';
-export { DrawRectangleMode } from '@nebula.gl/edit-modes';
-export { DrawSquareFromCenterMode } from '@nebula.gl/edit-modes';
-export { DrawCircleByDiameterMode } from '@nebula.gl/edit-modes';
-export { DrawCircleFromCenterMode } from '@nebula.gl/edit-modes';
-export { DrawEllipseByBoundingBoxMode } from '@nebula.gl/edit-modes';
-export { DrawEllipseUsingThreePointsMode } from '@nebula.gl/edit-modes';
-export { DrawRectangleUsingThreePointsMode } from '@nebula.gl/edit-modes';
-export { Draw90DegreePolygonMode } from '@nebula.gl/edit-modes';
-export { DrawPolygonByDraggingMode } from '@nebula.gl/edit-modes';
-export { ImmutableFeatureCollection } from '@nebula.gl/edit-modes';
+export { DrawPointMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawLineStringMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawPolygonMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawRectangleMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawSquareFromCenterMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawCircleByDiameterMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawCircleFromCenterMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawEllipseByBoundingBoxMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawEllipseUsingThreePointsMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawRectangleUsingThreePointsMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { Draw90DegreePolygonMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { DrawPolygonByDraggingMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { ImmutableFeatureCollection } from '@varlab-ucf/nebulagl-edit-modes';
 
 // Other modes
-export { ViewMode } from '@nebula.gl/edit-modes';
-export { MeasureDistanceMode } from '@nebula.gl/edit-modes';
-export { MeasureAreaMode } from '@nebula.gl/edit-modes';
-export { MeasureAngleMode } from '@nebula.gl/edit-modes';
-export { CompositeMode } from '@nebula.gl/edit-modes';
-export { SnappableMode } from '@nebula.gl/edit-modes';
+export { ViewMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { MeasureDistanceMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { MeasureAreaMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { MeasureAngleMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { CompositeMode } from '@varlab-ucf/nebulagl-edit-modes';
+export { SnappableMode } from '@varlab-ucf/nebulagl-edit-modes';

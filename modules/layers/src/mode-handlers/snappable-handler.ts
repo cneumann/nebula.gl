@@ -1,4 +1,4 @@
-import { Feature, FeatureCollection, Position } from '@nebula.gl/edit-modes';
+import { Feature, FeatureCollection, Position } from '@varlab-ucf/nebulagl-edit-modes';
 import { PointerMoveEvent, StartDraggingEvent, StopDraggingEvent } from '../event-types';
 import {
   EditHandle,

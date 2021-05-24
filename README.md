@@ -33,6 +33,8 @@
 
 <h5 align="center">An editing framework for deck.gl</h5>
 
+Forked from `nebula.gl` - the only intended functional difference is removal of the post install script to copy deck.gl types into `node_modules/@types`.
+
 [![docs](https://i.imgur.com/bRDL1oh.gif)](https://nebula.gl)
 
 [nebula.gl](https://nebula.gl) provides editable and interactive map overlay layers, built using the power of [deck.gl](https://uber.github.io/deck.gl).

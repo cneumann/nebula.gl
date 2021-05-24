@@ -7,7 +7,7 @@ import {
   StopDraggingEvent,
   DraggingEvent,
   PointerMoveEvent,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 
 const EVENT_TYPES = ['anyclick', 'pointermove', 'panstart', 'panmove', 'panend', 'keyup'];
 

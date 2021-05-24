@@ -9,7 +9,7 @@ import {
   FeatureCollection,
   Tooltip,
   DraggingEvent,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 import { ModeProps } from '../types';
 
 import { GEOJSON_TYPE, GUIDE_TYPE } from '../constants';

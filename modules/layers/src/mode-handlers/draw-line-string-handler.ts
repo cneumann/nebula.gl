@@ -1,4 +1,4 @@
-import { Position, LineString } from '@nebula.gl/edit-modes';
+import { Position, LineString } from '@varlab-ucf/nebulagl-edit-modes';
 import { ClickEvent, PointerMoveEvent } from '../event-types';
 import { EditAction, ModeHandler } from './mode-handler';
 

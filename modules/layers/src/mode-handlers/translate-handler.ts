@@ -2,7 +2,7 @@ import turfBearing from '@turf/bearing';
 import turfDistance from '@turf/distance';
 import turfTransformTranslate from '@turf/transform-translate';
 import { point } from '@turf/helpers';
-import { FeatureCollection, Position } from '@nebula.gl/edit-modes';
+import { FeatureCollection, Position } from '@varlab-ucf/nebulagl-edit-modes';
 import { PointerMoveEvent, StartDraggingEvent, StopDraggingEvent } from '../event-types';
 import { EditAction, ModeHandler } from './mode-handler';
 

@@ -6,7 +6,7 @@ import {
   FeatureCollection,
   EditAction,
   _memoize as memoize,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 
 import { MjolnirEvent } from 'mjolnir.js';
 import { BaseEvent, EditorProps, EditorState, SelectAction } from './types';

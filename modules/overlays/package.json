@@ -1,12 +1,12 @@
 {
-  "name": "@nebula.gl/overlays",
+  "name": "@varlab-ucf/nebulagl-overlays",
   "description": "React overlays for deck.gl",
   "license": "MIT",
   "version": "0.22.3",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber/nebula.gl"
+    "url": "https://github.com/cneumann/nebula.gl"
   },
   "keywords": [
     "webgl",

@@ -14,4 +14,4 @@ export {
   DrawPolygonMode,
   DrawRectangleMode,
   DrawPolygonByDraggingMode,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';

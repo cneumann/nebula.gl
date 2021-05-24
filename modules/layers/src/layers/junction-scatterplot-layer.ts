@@ -11,6 +11,10 @@ export default class JunctionScatterplotLayer extends CompositeLayer<any> {
     getInnerRadius: (d) => 1,
   };
 
+  constructor(config: Record<string, any>) {
+    super(config);
+  }
+
   renderLayers() {
     const { id, getFillColor, getStrokeColor, getInnerRadius, updateTriggers } = this.props;
 

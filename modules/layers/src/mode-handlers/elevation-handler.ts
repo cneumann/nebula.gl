@@ -1,4 +1,4 @@
-import { Position } from '@nebula.gl/edit-modes';
+import { Position } from '@varlab-ucf/nebulagl-edit-modes';
 import { PointerMoveEvent, StopDraggingEvent } from '../event-types';
 import { EditAction, getPickedEditHandle } from './mode-handler';
 

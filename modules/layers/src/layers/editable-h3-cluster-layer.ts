@@ -1,7 +1,7 @@
 /* eslint-env browser */
 
 import { H3ClusterLayer } from '@deck.gl/geo-layers';
-import { ViewMode } from '@nebula.gl/edit-modes';
+import { ViewMode } from '@varlab-ucf/nebulagl-edit-modes';
 import { polyfill, geoToH3 } from 'h3-js';
 import EditableGeoJsonLayer from './editable-geojson-layer';
 import EditableLayer from './editable-layer';

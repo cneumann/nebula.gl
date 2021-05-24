@@ -1,4 +1,4 @@
-import { PathMarkerLayer } from '@nebula.gl/layers';
+import { PathMarkerLayer } from '@varlab-ucf/nebulagl-layers';
 import { GL } from '@luma.gl/constants';
 
 import { ArrowStyles, DEFAULT_STYLE, MAX_ARROWS } from '../style';

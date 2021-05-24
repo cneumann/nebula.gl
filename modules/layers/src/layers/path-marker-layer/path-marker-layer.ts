@@ -40,6 +40,10 @@ export default class PathMarkerLayer extends CompositeLayer<any> {
   static layerName = 'PathMarkerLayer';
   static defaultProps = defaultProps;
 
+  constructor(config: Record<string, any>) {
+    super(config);
+  }
+
   initializeState() {
     this.state = {
       markers: [],

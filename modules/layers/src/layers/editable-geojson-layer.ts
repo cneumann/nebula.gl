@@ -35,7 +35,7 @@ import {
   GeoJsonEditModeType,
   GeoJsonEditModeConstructor,
   FeatureCollection,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 
 import EditableLayer from './editable-layer';
 

@@ -1111,15 +1111,6 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@danmarshall/deckgl-typings@^3.4.8":
-  version "3.4.8"
-  resolved "https://registry.yarnpkg.com/@danmarshall/deckgl-typings/-/deckgl-typings-3.4.8.tgz"
-  integrity sha512-3b6uRbPL2j3KXeIJ5Bk35aJZAfChz0Hw9fbpFDM/8NcYlebXDdXM3vDeUDSpa0mNtG82PFteOOL5ko+NV+ibIg==
-  dependencies:
-    "@types/hammerjs" "^2.0.36"
-    "@types/react" "*"
-    indefinitely-typed "^1.0.3"
-
 "@deck.gl/core@^8.4.6":
   version "8.4.6"
   resolved "https://registry.yarnpkg.com/@deck.gl/core/-/core-8.4.6.tgz#fc1cf34b8eea059bf531aee68ed280b33e1948b8"
@@ -2259,10 +2250,10 @@
   resolved "https://registry.yarnpkg.com/@luma.gl/constants/-/constants-8.4.3.tgz#d9c77844328ade0b7eda39f2086636157a0e91ad"
   integrity sha512-sInPqqnSijiSUiGmfXqIbh4GGFCOhRcqUAtawXFEOUqSHJh8Amytr35s8arqBVzav+rT8uxFUxdUmnPJ93AOsQ==
 
-"@luma.gl/constants@^8.0.1":
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/@luma.gl/constants/-/constants-8.1.0.tgz"
-  integrity sha512-mKd3FKkvr17/MdrFgtVAMddTiBwgAtAtXx3XCx6bpR1nJg39f7j7MnrFB3omu/twISLWLxv9GqIo+yxuO5hnhw==
+"@luma.gl/constants@^8.4.3":
+  version "8.4.5"
+  resolved "https://registry.yarnpkg.com/@luma.gl/constants/-/constants-8.4.5.tgz#561829898393b8a06342b5084f168f1c0bce625b"
+  integrity sha512-TKQJ/sktJ8KHS18hnY30EiLIeTfKo0bc7ECNpUrEWQdls9nZRC5mF+JDSfPv1JlDFWvNXwXR0k3D2X8J/tg3VA==
 
 "@luma.gl/core@^8.4.1":
   version "8.4.3"
@@ -2618,6 +2609,17 @@
   resolved "https://registry.yarnpkg.com/@tmcw%2ftogeojson/-/togeojson-3.2.0.tgz"
   integrity sha1-BZDpmyAZcUaPqbq9LSTxEO+ACZk=
 
+"@turf/along@>=6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/along/-/along-6.3.0.tgz#9a1d2d418027945f113e15029f53069b335bf426"
+  integrity sha512-2j0nHp38IuzESyv5/9hLYM2MuUe155Kw390lkQtiLjhRtTeYQNEaRy+uhZhf3/DWrjGULH1HatLc5j0CmiwrJA==
+  dependencies:
+    "@turf/bearing" "^6.3.0"
+    "@turf/destination" "^6.3.0"
+    "@turf/distance" "^6.3.0"
+    "@turf/helpers" "^6.3.0"
+    "@turf/invariant" "^6.3.0"
+
 "@turf/area@6.x":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@turf/area/-/area-6.0.1.tgz"
@@ -2659,6 +2661,14 @@
   dependencies:
     "@turf/helpers" "6.x"
     "@turf/invariant" "6.x"
+
+"@turf/bearing@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/bearing/-/bearing-6.3.0.tgz#4de3f398382772031e84491734902b8d37bc8c84"
+  integrity sha512-apuUm9xN6VQLO33m7F2mmzlm3dHfeesJjMSzh9iehGtgmp1IaVndjdcIvs0ieiwm8bN9UhwXpfPtO3pV0n9SFw==
+  dependencies:
+    "@turf/helpers" "^6.3.0"
+    "@turf/invariant" "^6.3.0"
 
 "@turf/boolean-clockwise@^5.1.5":
   version "5.1.5"
@@ -2741,6 +2751,14 @@
     "@turf/helpers" "6.x"
     "@turf/invariant" "6.x"
 
+"@turf/destination@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/destination/-/destination-6.3.0.tgz#7032eeb0ec5d1a035d98faaddac039eea96abb04"
+  integrity sha512-aLt3U/XkJWyZW08Ln1qZwBNAGh27yhmYLu892+dBj3gKP6UUiR6ZopXxrBwjBVe00A6k2ktftKDn79qe0hptuw==
+  dependencies:
+    "@turf/helpers" "^6.3.0"
+    "@turf/invariant" "^6.3.0"
+
 "@turf/difference@>=4.0.0":
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/@turf/difference/-/difference-6.0.1.tgz"
@@ -2758,6 +2776,14 @@
   dependencies:
     "@turf/helpers" "6.x"
     "@turf/invariant" "6.x"
+
+"@turf/distance@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/distance/-/distance-6.3.0.tgz#4bd084af7fe369e921476e52b597a638dae4ed95"
+  integrity sha512-basi24ssNFnH3iXPFjp/aNUrukjObiFWoIyDRqKyBJxVwVOwAWvfk4d38QQyBj5nDo5IahYRq/Q+T47/5hSs9w==
+  dependencies:
+    "@turf/helpers" "^6.3.0"
+    "@turf/invariant" "^6.3.0"
 
 "@turf/ellipse@>=4.0.0":
   version "5.1.5"
@@ -2800,6 +2826,13 @@
   resolved "https://registry.yarnpkg.com/@turf/invariant/-/invariant-5.2.0.tgz"
   dependencies:
     "@turf/helpers" "^5.1.5"
+
+"@turf/invariant@^6.3.0":
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/@turf/invariant/-/invariant-6.3.0.tgz#04a22b26c5503146c03fa6198176b72bd591eadf"
+  integrity sha512-2OFOi9p+QOrcIMySEnr+WlOiKaFZ1bY56jA98YyECewJHfhPFWUBZEhc4nWGRT0ahK08Vus9+gcuBX8QIpCIIw==
+  dependencies:
+    "@turf/helpers" "^6.3.0"
 
 "@turf/line-intersect@6.x", "@turf/line-intersect@>=4.0.0":
   version "6.0.2"
@@ -3278,6 +3311,14 @@
     lodash "^4.17.15"
     semver "^6.3.0"
     tsutils "^3.17.1"
+
+"@varlab-ucf/deckgl-typings@3.8.4":
+  version "3.8.4"
+  resolved "https://registry.yarnpkg.com/@varlab-ucf/deckgl-typings/-/deckgl-typings-3.8.4.tgz#27304bd9cf7e2758eab14106a6f7cd19ff91eb2d"
+  integrity sha512-sFh/GXQFCb80wMvU82we/aT/F+eKIdp8QWjCryBjTrTuqgT2Pcdq+L4WL7+lgLtzxxU4NTlS/FhrFBJn1S+Jcw==
+  dependencies:
+    "@types/hammerjs" "^2.0.36"
+    "@types/react" "*"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -6777,15 +6818,6 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz"
-  integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^4.0.0"
-    universalify "^0.1.0"
-
 fs-extra@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-8.1.0.tgz"
@@ -7604,14 +7636,6 @@ imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
-
-indefinitely-typed@1.0.2, indefinitely-typed@^1.0.3:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/indefinitely-typed/-/indefinitely-typed-1.0.2.tgz#b577044fceb8f7c151e1a851b034b643eafdb14e"
-  integrity sha512-BGnhwdPmpGDCvKQ4EnhfcPkE3tHbwodkmLLPIWjDINHjD5WFj0C0lGMLzObZC9yyaVoqwJRzYJxe0X1XYXxcDQ==
-  dependencies:
-    fs-extra "^7.0.0"
-    minimist "^1.2.0"
 
 indent-string@^2.1.0:
   version "2.1.0"

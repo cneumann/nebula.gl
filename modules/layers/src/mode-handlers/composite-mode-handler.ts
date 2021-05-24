@@ -1,4 +1,4 @@
-import { FeatureCollection, Feature, Position } from '@nebula.gl/edit-modes';
+import { FeatureCollection, Feature, Position } from '@varlab-ucf/nebulagl-edit-modes';
 import {
   ClickEvent,
   PointerMoveEvent,

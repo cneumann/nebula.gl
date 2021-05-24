@@ -3,7 +3,7 @@
 import tokml from '@maphubs/tokml';
 import { stringify as stringifyWkt } from 'wellknown';
 // @ts-ignore
-import { AnyGeoJson, Geometry, PolygonalGeometry } from '@nebula.gl/edit-modes';
+import { AnyGeoJson, Geometry, PolygonalGeometry } from '@varlab-ucf/nebulagl-edit-modes';
 
 export type ExportParameters = {
   data: string;

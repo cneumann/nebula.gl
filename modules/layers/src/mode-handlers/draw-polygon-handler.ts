@@ -1,4 +1,4 @@
-import { Polygon, Position } from '@nebula.gl/edit-modes';
+import { Polygon, Position } from '@varlab-ucf/nebulagl-edit-modes';
 import { ClickEvent, PointerMoveEvent } from '../event-types';
 import {
   EditAction,

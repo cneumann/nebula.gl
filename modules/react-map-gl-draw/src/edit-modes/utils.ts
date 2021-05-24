@@ -1,5 +1,5 @@
 import { MjolnirEvent } from 'mjolnir.js';
-import type { FeatureOf, Feature, Polygon, Position } from '@nebula.gl/edit-modes';
+import type { FeatureOf, Feature, Polygon, Position } from '@varlab-ucf/nebulagl-edit-modes';
 
 import { GEOJSON_TYPE, ELEMENT_TYPE, GUIDE_TYPE } from '../constants';
 

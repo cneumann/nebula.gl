@@ -9,7 +9,7 @@ import {
   MeasureDistanceMode,
   MeasureAngleMode,
   MeasureAreaMode,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 import styled from 'styled-components';
 import { Icon } from './icon';
 

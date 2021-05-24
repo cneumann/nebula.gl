@@ -1,7 +1,7 @@
 import turfCentroid from '@turf/centroid';
 import turfBearing from '@turf/bearing';
 import turfTransformRotate from '@turf/transform-rotate';
-import { FeatureCollection, Position } from '@nebula.gl/edit-modes';
+import { FeatureCollection, Position } from '@varlab-ucf/nebulagl-edit-modes';
 import { PointerMoveEvent, StartDraggingEvent, StopDraggingEvent } from '../event-types';
 import { EditAction, ModeHandler } from './mode-handler';
 

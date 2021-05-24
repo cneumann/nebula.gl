@@ -11,7 +11,7 @@ import {
   Polygon,
   Geometry,
   Position,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 
 import {
   ClickEvent,

@@ -7,7 +7,7 @@ import {
   Pick,
   ClickEvent,
   ScreenCoordinates,
-} from '@nebula.gl/edit-modes';
+} from '@varlab-ucf/nebulagl-edit-modes';
 
 import { RENDER_STATE, GEOJSON_TYPE, RENDER_TYPE } from './constants';
 

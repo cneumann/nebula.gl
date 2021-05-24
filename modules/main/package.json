@@ -1,12 +1,12 @@
 {
-  "name": "nebula.gl",
+  "name": "@varlab-ucf/nebula.gl",
   "description": "A suite of 3D-enabled data editing overlays, suitable for deck.gl",
   "license": "MIT",
   "version": "0.22.3",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber/nebula.gl"
+    "url": "https://github.com/cneumann/nebula.gl"
   },
   "keywords": [
     "webgl",
@@ -50,7 +50,6 @@
   },
   "dependencies": {
     "@luma.gl/constants": "^8.4.3",
-    "@nebula.gl/layers": "0.22.3",
     "@turf/bbox": ">=4.0.0",
     "@turf/bbox-polygon": ">=4.0.0",
     "@turf/bearing": ">=4.0.0",
@@ -73,6 +72,7 @@
     "@turf/transform-scale": ">=4.0.0",
     "@turf/transform-translate": ">=4.0.0",
     "@turf/union": ">=4.0.0",
+    "@varlab-ucf/nebulagl-layers": "0.22.3",
     "cubic-hermite-spline": "^1.0.1",
     "geojson-types": "^2.0.1",
     "global": ">=4.3.0",

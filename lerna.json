@@ -1,7 +1,6 @@
 {
   "packages": [
-    "modules/*",
-    "examples/advanced"
+    "modules/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,

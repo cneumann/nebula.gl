@@ -1,12 +1,12 @@
 {
-  "name": "@nebula.gl/edit-modes",
+  "name": "@varlab-ucf/nebulagl-edit-modes",
   "description": "GeoJSON editing modes for nebula.gl",
   "license": "MIT",
   "version": "0.22.3",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/uber/nebula.gl"
+    "url": "https://github.com/cneumann/nebula.gl"
   },
   "keywords": [
     "webgl",
