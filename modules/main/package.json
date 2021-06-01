@@ -2,7 +2,7 @@
   "name": "@varlab-ucf/nebula.gl",
   "description": "A suite of 3D-enabled data editing overlays, suitable for deck.gl",
   "license": "MIT",
-  "version": "0.22.3",
+  "version": "0.22.3-ucf001",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
@@ -72,7 +72,7 @@
     "@turf/transform-scale": ">=4.0.0",
     "@turf/transform-translate": ">=4.0.0",
     "@turf/union": ">=4.0.0",
-    "@varlab-ucf/nebulagl-layers": "0.22.3",
+    "@varlab-ucf/nebulagl-layers": "0.22.3-ucf001",
     "cubic-hermite-spline": "^1.0.1",
     "geojson-types": "^2.0.1",
     "global": ">=4.3.0",

@@ -2,7 +2,7 @@
   "name": "@varlab-ucf/nebulagl-overlays",
   "description": "React overlays for deck.gl",
   "license": "MIT",
-  "version": "0.22.3",
+  "version": "0.22.3-ucf001",
   "author": "Georgios Karnas <georgios@uber.com>",
   "repository": {
     "type": "git",
